@@ -1,0 +1,10 @@
+2026-09-28 15:53:53,279 INFO HTTP Request: GET https://habr.com/ru/rss/articles/?fl=ru "HTTP/1.1 200 OK"
+2026-09-28 15:53:53,339 INFO source=Хабр received=40 added=40
+2026-09-28 15:53:53,961 INFO HTTP Request: GET https://news.ycombinator.com/rss "HTTP/1.1 200 OK"
+2026-09-28 15:53:53,983 INFO source=Hacker News received=30 added=30
+2026-09-28 15:53:53,983 INFO Collection complete: added=70 errors=0
+2026-09-28 15:53:54,402 INFO HTTP Request: GET https://habr.com/ru/rss/articles/?fl=ru "HTTP/1.1 200 OK"
+2026-09-28 15:53:54,491 INFO source=Хабр received=40 added=0
+2026-09-28 15:53:55,299 INFO HTTP Request: GET https://news.ycombinator.com/rss "HTTP/1.1 200 OK"
+2026-09-28 15:53:55,320 INFO source=Hacker News received=30 added=0
+2026-09-28 15:53:55,320 INFO Collection complete: added=0 errors=0

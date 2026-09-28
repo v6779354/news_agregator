@@ -1,0 +1,14 @@
+services:
+  news:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/news.sqlite3
+      SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
+    volumes:
+      - news-data:/app/data
+    restart: unless-stopped
+volumes:
+  news-data:
